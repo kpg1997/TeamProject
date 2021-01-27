@@ -15,17 +15,38 @@ body{
     margin: 0;
 }
 header{
-    background-color: rgb(207, 175, 250);
+    background-color:none;
     margin: 0;
     padding: 0;
-    height: 60px;
-    
+    width: 100%;
+    display: inline-block;
+    text-align:  center;
+}
+
+
+.btn-login{
+    font-family: "main-font";
+    font-size: 25px;
+}
+.top-bar{
+    width: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 #menu-bar{
     font-family: "main-font";
 }
 
-#munu-bar ul li{
-    list-style-type: none;
+#menu-bar ul{
+    list-style: none;
+    font-size: 30px;
+    display: inline-block;
 }
+
+#menu-bar ul li{
+    float: left;
+    padding: 0 40px 0 40px;
+    
+}
+
