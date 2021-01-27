@@ -1,0 +1,24 @@
+.login-form-panel{
+    border: 1px solid black;
+    width: 450px;
+    margin: auto;
+    padding: 3px;
+}
+.form-input,#login{
+    display: inline-block;
+}
+#login{
+    height: 46px;
+    
+}
+.form-input,#login{
+    vertical-align: middle;
+}
+.buttons{
+    border: 0;
+    background-color: white;
+}
+.buttons:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

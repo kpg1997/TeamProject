@@ -1,0 +1,19 @@
+.join-form-panel{
+    margin: auto;
+    border: 1px solid black;
+    width: 500px;
+}
+.join-form{
+    padding: 15px 10px 10px 15px;
+}
+#join{
+    border: 0;
+}
+#join:hover{
+    font-weight: bold;
+}
+.join-div{
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
