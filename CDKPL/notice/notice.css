@@ -1,0 +1,21 @@
+.top-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top-bar{
+    /* position: fixed; */
+    width: 10px;
+    display: inline;
+    grid-template-columns: auto auto auto;
+}
+.top-bar a{
+    text-decoration: none;
+    color:  rgb(242, 242, 255);
+}
+
+container{
+    border: 2px solid rgb(24, 23, 22);
+    width: 700px;
+    height:700px;
+}
