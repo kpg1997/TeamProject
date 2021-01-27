@@ -34,19 +34,50 @@ header{
     grid-template-columns: auto auto;
 }
 
-#menu-bar{
+.menu-bar{
     font-family: "main-font";
 }
 
-#menu-bar ul{
+.menu-bar ul{
     list-style: none;
     font-size: 30px;
     display: inline-block;
+    margin-bottom:px;
 }
 
-#menu-bar ul li{
-    float: left;
-    padding: 0 40px 0 40px;
+.menu-bar ul li{
+    /* float: left;
+    padding: 0 40px 0 40px; */
+    display: inline-block;
+    margin-left: -35px;
     
+}
+
+.menu-bar ul li a{
+    display: block;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 40px;
+}
+.menu-bar ul li a:hover{
+    background-color:  none ;
+    color: white;
+}
+
+.menu-bar ul ul{
+    position: absolute;
+    display: none;
+}
+.menu-bar ul ul li{
+    display: block;
+    background-color: none ;
+    color: rgb(0, 0, 0);
+}
+
+#mb-ul{
+    min-width: 300px;
+    background-color: none ;
+    text-align: center;
 }
 
