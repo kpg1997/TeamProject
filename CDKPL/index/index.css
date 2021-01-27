@@ -6,6 +6,7 @@
 .title{
     font-family: "main-font";
     font-size: 100px;
+    text-align: center;
 }
 
 body{
@@ -14,6 +15,25 @@ body{
     height: 100%;
     margin: 0;
 }
+
+.top-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-login{
+    background-color: none;
+    border-radius: 10px;
+    border:3px solid rgb(242, 242, 255);
+    margin-bottom: 10px;
+    margin-top: 13px;
+    padding-left: 5px ;
+    padding-right: 5px;
+    float: right;
+    color: rgb(242, 242, 255);
+}
+
 header{
     background-color:none;
     margin: 0;
@@ -29,10 +49,16 @@ header{
     font-size: 25px;
 }
 .top-bar{
-    width: 70px;
-    display: grid;
-    grid-template-columns: auto auto;
+    /* position: fixed; */
+    width: 10px;
+    display: inline;
+    grid-template-columns: auto auto auto;
 }
+.top-bar a{
+    text-decoration: none;
+    color:  rgb(242, 242, 255);
+}
+
 
 .menu-bar{
     font-family: "main-font";
@@ -81,3 +107,8 @@ header{
     text-align: center;
 }
 
+.main-slogan{
+    font-family: "main-font";
+    font-size: 75px;
+    padding-top: 150px;
+}
