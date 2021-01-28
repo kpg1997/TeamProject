@@ -6,23 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="./login.css">
+    <script type="text/javascript" src="./libs/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
-    <div id=body>
-        <div class="login-form-panel">
-            <div class="form-input">
-                <div id="inpid"><input id="input-id" type="text"></div>
-                <div id="inppwd"><input id="input-pwd" type="password"></div>
-            </div>
-            <button id="login" onclick="login()">로그인</button>
-            <div class="join-find-id-pwd">
-                <button class='buttons' id="find-id">아이디 찾기</button>
-                <button class='buttons' id="find-pwd">비밀번호 찾기</button>
-                <button class='buttons' id="join"onclick="join()"><a>회원가입</a></button>
+    <div id="header">
+        <div class="top-bar">
+            <div class="top-logo"><img src="./images/투명로고1 .png" alt=""></div>
+            <div class="btn-login"><a href="#">Login</a></div>
+            <div class="btn-login"><a href="#">Sign In</a></div>
+        </div>
+        <div class="menu-main-bar">
+            <div class="title">CDKPL</div>
+            <div class="menu-bar">
+                <ul id="mb-ul">
+                    <li><a href="#">group</a>
+                        <ul>
+                            <li><a href="#">greeting</a></li>
+                            <li><a href="#">group</a></li>
+                            <li><a href="#">brand</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">notice</a>
+                        <ul>
+                            <li><a href="#">notice</a></li>
+                            <li><a href="#">issue</a></li>
+                            <li><a href="#">news</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">board</a>
+                        <ul>
+                            <li><a href="#">board</a></li>
+                            <li><a href="#">QnA</a></li>
+                            <li><a href="#">connect</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">location</a>
+                        <ul>
+                            <li><a href="#">location</a></li>
+                            <li><a href="#">global</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+    <div id="body-panel">
+        <div class="login-form-panel">
+            <div class="form-input">
+                <div id='lopgin-form'>
+                    <div class="input-panel">
+                        <div id="inpid"><input id="input-id" type="text" placeholder="ID" autofocus></div>
+                        <div id="inppwd"><input id="input-pwd" type="password" placeholder="PASSWORD"></div>
+                    </div>
+                    <div id="login" onclick="login()">Login</div>
+                </div>
+                <div class="join-find-id-pwd">
+                    <div class='buttons' id="find-id" onclick="findID()">Forgot Id</div>
+                    <div class='buttons' id="find-pwd" onclick="findPwd()">Forgot Password</div>
+                    <div class='buttons' id="join" onclick="join()">Sign In</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="./login.js"></script>
 </body>
 
