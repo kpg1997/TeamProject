@@ -54,26 +54,28 @@
     <div id="body">
         <div class="join-form-panel">
             <div class="join-form">
-                <div>이름 : <input type="text" id="userName" autofocus>
+                <div><input type="text" id="userName" autofocus placeholder="Name">
                     <div class="text" id="text-name"></div>
                 </div>
-                <div>이메일 : <input type="email" id="userEmail">
-                    <div class="text"id="text-email"></div>
+                <div><input type="email" id="userEmail" placeholder="Email">
+                    <div class="text" id="text-email"></div>
                 </div>
-                <div>아이디 : <input type="text" id="userId">
-                    <div class="text"id="text-id"></div>
+                <div><input type="text" id="userId" placeholder="ID">
+                    <div class="text" id="text-id"></div>
                 </div>
-                <div>비밀번호 : <input type="text" id="userPwd">
+                <div><input type="password" id="userPwd" placeholder="Password">
                     <div class="text" id="text-pwd"></div>
                 </div>
-                <div>비밀번호 확인 : <input type="text" id="userRepwd">
+                <div><input type="password" id="userRepwd" placeholder="Confirm Password">
                     <div class="text" id="text-repwd"></div>
                 </div>
-
-                <div class="join-div"><button id="join" onclick="join()">회원가입</button></div>
+                <div><label><input type="checkbox" id="checkbox" value='0'>Agree
+                    </label></div>
             </div>
-
+            <div id="join" class="join-div" onclick="join()">Sign Up</div>
         </div>
+
+    </div>
     </div>
     <script src="./signIn.js"></script>
 </body>
