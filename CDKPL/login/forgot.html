@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div class="forgot-panel">
+        <div class="find-id-panel">
+            <div class="find-panel">아이디 찾기</div>
+            <div class="input-panel">
+                <div><input type="text" placeholder="Name" id="find-id-name"></div>
+                <div><input type="email" placeholder="Email" id="find-id-email"></div>
+            </div>
+            <button class="find-btns" id="find-id-btn" onclick="findUserID()">아이디 찾기</button>
+        </div>
+        <div class="find-pwd-panel">
+            <div class="find-panel">비밀번호 찾기</div>
+            <div class="input-panel">
+                <div><input type="id" placeholder="ID" id="find-pwd-id"></div>
+                <div><input type="text" placeholder="Name" id="find-pwd-name"></div>
+                <div><input type="email" placeholder="Email" id="find-pwd-email"></div>
+            </div>
+            <button class="find-btns" id="find-pwd-btn" onclick="findUserPwd()">비밀번호 찾기</button>
+        </div>
+        <div class="show-user-id-pwd">
+            <div>아이디 : <div id="show-user-id"></div></div>
+            <div>비밀번호 : <div id="show-user-pwd"></div></div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

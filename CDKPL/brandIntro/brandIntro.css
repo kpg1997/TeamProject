@@ -13,8 +13,9 @@
 body{
     background-image: url(./images/backgroundimage.jpg);
     width: 100%;
-    height: 100%;
+    height: 110%;
     margin: 0;
+    background-size: cover;
 }
 
 .top-logo{
@@ -125,14 +126,15 @@ body{
 }
 /*body*/
 .body{
-    margin-top: 90px;
-    background-color: cornflowerblue;
-    
+    width: 1300px;
+    margin: 5% auto auto auto;
+    height: 1100px;
 }
 .Brand-main-title{
-    font-size: 50px;
+    font-size: 60px;
     font-family: "main-font";
     text-align: center;
+    margin-bottom: 2%;
 }
 .brand-img{
     width: 200px;
@@ -157,4 +159,20 @@ body{
 }
 div>.brand-img{
     margin-left:3px ;
+}
+#brand-img0{
+    margin-bottom: 33px;
+    margin-left: 33px;
+}
+#brand-img1{
+    margin-bottom: -33px;
+    margin-left: 33px;
+}
+#brand-img2{
+    margin-bottom: 33px;
+    margin-left: 33px;
+}
+#brand-img3{
+    margin-bottom: -33px;
+    margin-left: 33px;
 }
