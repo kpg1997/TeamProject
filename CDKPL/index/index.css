@@ -33,6 +33,11 @@ body{
     float: right;
     color: rgb(242, 242, 255);
 }
+.btn-login{
+    font-family: "main-font";
+    font-size: 25px;
+    margin-right: 15px;
+}
 
 header{
     background-color:none;
@@ -44,11 +49,6 @@ header{
 }
 
 
-.btn-login{
-    font-family: "main-font";
-    font-size: 25px;
-    margin-right: 15px;
-}
 .top-bar{
     position: fixed; 
     height:70px;

@@ -1,20 +1,65 @@
+@font-face{
+    src: url("../index/fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf");
+    font-family: "main-font";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #121426;
+    margin-top: 0;
+}
 .top-logo{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 }
 .top-bar{
+    position: fixed; 
+    width: 100%;
+    display: block;
+    /* background-color: #4c4c4c; */
+
     /* position: fixed; */
-    width: 10px;
+    /* height: ;
+    width: 100%;
     display: inline;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto; */
 }
 .top-bar a{
     text-decoration: none;
-    color:  rgb(242, 242, 255);
+    color:  rgb(255, 255, 255);
 }
 
-container{
-    border: 2px solid rgb(24, 23, 22);
-    
+.btn-login{
+    background-color: none;
+    border-radius: 10px;
+    border:3px solid rgb(242, 242, 255);
+    margin-bottom: 10px;
+    margin-top: 13px;
+    padding-left: 5px ;
+    padding-right: 5px;
+    float: right;
+    color: rgb(242, 242, 255);
+}
+.btn-login{
+    font-family: "main-font";
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+
+.title{
+    font-family: "main-font";
+    font-size: 75px;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url(./images/공지사항배경.jpg);
+    height: 100%;
 }
