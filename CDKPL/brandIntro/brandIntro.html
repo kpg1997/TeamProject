@@ -1,14 +1,79 @@
 <!DOCTYPE html>
-<html lang="kp">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>brandIntro</title>
+    <script src="libs/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./brandIntro.css">
 </head>
+
 <body>
+    <div id="header">
+        <div class="top-bar">
+            <div class="top-logo"><img src="./images/투명로고1 .png" alt=""></div>
+            <div class="btn-login"><a href="../login/login.html">Login</a></div>
+            <div class="btn-login"><a href="../signIn/signIn.html">Sign In</a></div>
+        </div>
+        <div class="menu-main-bar">
+            <div class="title">CDKPL</div>
+            <div class="menu-bar">
+                <ul id="mb-ul">
+                    <li><a href="#">group</a>
+                        <ul>
+                            <li><a href="#">greeting</a></li>
+                            <li><a href="#">group</a></li>
+                            <li><a href="../brandIntro/brandIntro.html">brand</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">notice</a>
+                        <ul>
+                            <li><a href="#">notice</a></li>
+                            <li><a href="#">issue</a></li>
+                            <li><a href="#">news</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">board</a>
+                        <ul>
+                            <li><a href="#">board</a></li>
+                            <li><a href="#">QnA</a></li>
+                            <li><a href="#">connect</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">location</a>
+                        <ul>
+                            <li><a href="#">location</a></li>
+                            <li><a href="#">global</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="Brand-main-title">Brand</div>
+        <div class="list" id="listID"></div>
+    </div>
     
 
+
+
+
+    <!-- clone -->
+    <div id="cloneList" class="Clone-List"></div>
+    <div class="brand-panel-list" id="brand-paneles">
+        <div id="brand-title-list" class="aa"><div>
+           <img class="brand-title-logo">
+        </div>
+        <div id="brand-img-list" class="brand-imgList">
+            <img id="brand-img0" class="brand-img">
+            <img id="brand-img1" class="brand-img">
+            <img id="brand-img2" class="brand-img">
+            <img id="brand-img3" class="brand-img">
+        </div>
+    </div>
     <script src="./brandIntro.js"></script>
 </body>
+
 </html>

@@ -67,17 +67,16 @@ $('#userRepwd').blur(function () {
     }
 })
 
-
-$('#checkbox').change(function () {
-    var checkbox = $('#checkbox').val()
-    if (checkbox == 0) {
-        document.getElementById('checkbox').setAttribute('value',1);
-    } else if (checkbox == 1) {
-        document.getElementById('checkbox').setAttribute('value',0);
-    } else {
-        document.getElementById('text-pwd').innerHTML = ""
-    }
-})
+// $('#checkbox').change(function () {
+//     var checkbox = $('#checkbox').val()
+//     if (checkbox == 0) {
+//         document.getElementById('checkbox').setAttribute('value',1);
+//     } else if (checkbox == 1) {
+//         document.getElementById('checkbox').setAttribute('value',0);
+//     } else {
+//         document.getElementById('text-pwd').innerHTML = ""
+//     }
+// })
 
 function join(){
     var name = $('#text-name').val();
@@ -92,4 +91,8 @@ function join(){
     }else{
         alert("정보를 정확히 입력부탁드립니다.")
     }
+}
+
+function okTerms(){
+    window.close();
 }

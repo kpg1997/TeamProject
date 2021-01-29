@@ -1,0 +1,160 @@
+/*header*/
+@font-face{
+    src: url("./fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf");
+    font-family: "main-font";
+}
+
+.title{
+    font-family: "main-font";
+    font-size: 100px;
+    text-align: center;
+}
+
+body{
+    background-image: url(./images/backgroundimage.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.top-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-login{
+    background-color: none;
+    border-radius: 10px;
+    border:3px solid rgb(242, 242, 255);
+    margin-bottom: 10px;
+    margin-top: 13px;
+    padding-left: 5px ;
+    padding-right: 5px;
+    float: right;
+    color: rgb(242, 242, 255);
+}
+
+#header{
+    background-color:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-align:  center;
+}
+
+
+.btn-login{
+    font-family: "main-font";
+    font-size: 25px;
+    margin-right: 15px;
+}
+.top-bar{
+    position: fixed; 
+    height:70px;
+    width: 100%;
+    display: block;
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px; */
+}
+.top-bar a{
+    text-decoration: none;
+    color:  rgb(242, 242, 255);
+}
+
+
+.menu-main-bar {
+    margin-top: 100px;
+}
+.menu-bar{
+    font-family: "main-font";
+}
+
+.menu-bar ul{
+    list-style: none;
+    font-size: 30px;
+    display: inline-block;
+    /* margin-bottom:px; */
+}
+
+.menu-bar ul li{
+    /* float: left;
+    padding: 0 40px 0 40px; */
+    display: inline-block;
+    margin-left: -35px;
+    
+}
+
+.menu-bar ul li a{
+    display: block;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 40px;
+}
+.menu-bar ul li a:hover{
+    background-color:  none ;
+    color: white;
+}
+
+.menu-bar ul ul{
+    position: absolute;
+    display: none;
+}
+.menu-bar ul ul li{
+    display: block;
+    background-color: none ;
+    color: rgb(0, 0, 0);
+}
+
+#mb-ul{
+    min-width: 300px;
+    background-color: none ;
+    text-align: center;
+}
+
+.main-slogan{
+    font-family: "main-font";
+    font-size: 75px;
+    padding-top: 150px;
+}
+/*body*/
+.body{
+    margin-top: 90px;
+    background-color: cornflowerblue;
+    
+}
+.Brand-main-title{
+    font-size: 50px;
+    font-family: "main-font";
+    text-align: center;
+}
+.brand-img{
+    width: 200px;
+    height: 200px;
+}
+.brand-title-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.brand-panel-list{
+    display: none;
+}
+
+.aa ,.brand-imgList{ display:inline-block;}
+#cloneList{
+    display: none;
+}
+.Clone-List{
+    margin: auto;
+    text-align: center;
+}
+div>.brand-img{
+    margin-left:3px ;
+}

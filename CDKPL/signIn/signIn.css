@@ -171,3 +171,37 @@ input, .text{
     margin: auto;
     margin-top:110px;
 }
+.Terms{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+/*Terms*/
+.Terms-of-Service-panel{
+    background-color: #ffffff;
+    width:900px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.sub{
+    font-size: 20px;
+}
+.terms-table{
+    margin: auto;
+}
+.ok{
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+}
+td{
+    width: 380px;
+}
+th{
+    text-align: left;
+}
