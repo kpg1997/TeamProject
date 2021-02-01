@@ -21,7 +21,7 @@
     width: 100%;
     display: block;
     /* background-color: #4c4c4c; */
-
+    
     /* position: fixed; */
     /* height: ;
     width: 100%;
@@ -59,13 +59,6 @@
     text-align: center;
     color: white;
 }
-
-body{
-    background-image: url(./images/공지사항배경.jpg);
-    height: 100%;
-   
-}
-
 
 .menu-main-bar {
     margin-top: 100px;
@@ -118,6 +111,26 @@ body{
     text-align: center;
 }
 
-.now-page{
-    text-decoration: underline rgb(226, 9, 9);
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+body{
+    height: 100%;
+    background-image: url(./images/location배경.jpg);
+    /* position: relative;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.text-area{
+    font-family: "main-font";
+    text-align: center;
+    padding-top: 60px;
+    font-size: 60px;
+    color: white;
+}
+
+.map-area{
+    display: flex;
+    justify-content: center;
+    lign-items: center;
+    
+
 }
