@@ -1,0 +1,61 @@
+#videobcg {
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+@font-face{
+    src: url("../index/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
+    font-family: "sub-font";
+}
+
+@font-face{
+    src: url("../index/fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf");
+    font-family: main-font;
+}
+
+
+
+.title-line{
+    margin-top: -30px ;
+    margin-bottom: 50px;
+}
+.title-line-left{
+    margin-left: 45%;
+    width: 5px;
+    height: 50px;
+    background-color: peru;
+    transform: rotate(-45deg);
+    float: left;
+}
+.title-line-right{
+    margin-left: 55%;
+    width: 5px;
+    height: 50px;
+    background-color: peru;
+    transform: rotate(+45deg);
+}
+
+.sub-title1{
+    font-family: "sub-font";
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+   text-align: center;
+}
+.sub-title ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 35px;
+    font-family: "sub-font";
+    margin: 200px 0 0 20.5%;
+    font-weight: bold;
+    color: white;
+}

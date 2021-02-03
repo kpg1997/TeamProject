@@ -1,6 +1,4 @@
-$(".menu-bar ul li").hover(function () {
-    $(this).find("ul").stop().fadeToggle(300);
-});
+
 // 아이디, 이메일 중복확인
 
 //이름
