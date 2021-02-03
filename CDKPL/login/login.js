@@ -28,6 +28,8 @@ function find(num) {
 $(".menu-bar ul li").hover(function () {
     $(this).find("ul").stop().fadeToggle(300);
 });
+
+
 function find() {
     // console.log(text);
     window.open('./forgot.html', '_blank', "width=800,height=400,scrollbars=yes");
