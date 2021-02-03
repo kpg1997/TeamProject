@@ -3,57 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>location</title>
     <link rel="stylesheet" href="./location.css">
+    <script  src="../index/libs/jquery-3.5.1.min.js"></script>
+    <script src="../total/totalheader.js"></script>
+    <title>location</title>
 </head>
 <body>
-    <!-- //////////////////////상단바/////////////////////////////// -->
-    <div class="header">
-        <div class="top-bar">
-            <div class="top-logo"><img src="../index/images/투명로고1 .png" alt=""></div>
-            <buttton class="btn-login"><a href="#">Sign In</a></buttton>
-            <buttton class="btn-login"><a href="#">Login<img src="../index/images/before-login.png" class="login-img"></a></buttton>
-        </div>
-        <div class="container">
-            <div class="title">CDKPL</div>
-            <div class="menu-bar">
-                <ul id="mb-ul">
-                    <li><a href="#"">group</a>
-                        <ul>
-                            <li><a href="#"">greeting</a></li>
-                            <li><a href="#"">group</a></li>
-                            <li><a href="#"">brand</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"" class="now-page">notice</a>
-                        <ul>
-                            <li><a href="#"">notice</a></li>
-                            <li><a href="#"">issue</a></li>
-                            <li><a href="#"">news</a></li>
-                        </ul>                   
-                    </li>
-                    <li><a href="#"">board</a>
-                        <ul>
-                            <li><a href="#"">board</a></li>
-                            <li><a href="#"">QnA</a></li>
-                            <li><a href="#"">connect</a></li>
-                        </ul>                   
-                    </li>
-                    <li><a href="#"">location</a>
-                        <ul>
-                            <li><a href="#"">location</a></li>
-                            <li><a href="#"">global</a></li>
-                        </ul>                   
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="body">
+    
+    
+    <header id="total-header" ></header>
+    <!-- ///////////////////////////바디//////////////////////////// -->
+    <div class="body" >
         <div class="text-area">
             Directions 
         </div>
+
         <div class="map-area">
             <div id="map" style="width:750px;height:500px;"></div>
             <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cb2ddce9c272d8e533706240faf2a4b7"></script>
@@ -78,6 +42,20 @@
                 // 인포윈도우를 지도에 표시한다
                 infowindow.open(map, marker);
             </script>
+        </div>
+
+        <div>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+            천호역1번출구 1분거리<br>
+           
         </div>
     </div>
 

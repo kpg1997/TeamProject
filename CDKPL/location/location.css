@@ -1,3 +1,6 @@
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 @font-face{
     src: url("../index/fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf");
     font-family: "main-font";
@@ -7,125 +10,13 @@
     padding: 0;
 }
 
-.header{
-    background-color: #121426;
-    margin-top: 0;
-}
-.top-logo{
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-.top-bar{
-    position: fixed; 
-    width: 100%;
-    display: block;
-    /* background-color: #4c4c4c; */
-    
-    /* position: fixed; */
-    /* height: ;
-    width: 100%;
-    display: inline;
-    grid-template-columns: auto auto auto; */
-}
-.top-bar a{
-    text-decoration: none;
-    color:  rgb(255, 255, 255);
-}
-
-.btn-login{
-    background-color: none;
-    border-radius: 10px;
-    border:3px solid rgb(242, 242, 255);
-    margin-bottom: 10px;
-    margin-top: 13px;
-    padding-left: 5px ;
-    padding-right: 5px;
-    float: right;
-    color: rgb(242, 242, 255);
-}
-.btn-login{
-    font-family: "main-font";
-    font-size: 25px;
-    margin-right: 15px;
-}
-.login-img{
-    height: 20px;
-    width: 20px;
-    /* background-color: white; */
-    margin-left: 5px;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-
-.title{
-    font-family: "main-font";
-    font-size: 75px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: white;
-}
-
-.menu-main-bar {
-    margin-top: 100px;
-}
-.menu-bar{
-    font-family: "main-font";
-    text-align: center;
-}
-
-.menu-bar ul{
-    list-style: none;
-    font-size: 30px;
-    display: inline-block;
-    margin-bottom:px;
-}
-
-.menu-bar ul li{
-    /* float: left;
-    padding: 0 40px 0 40px; */
-    display: inline-block;
-    margin-left: -5px;
-    
-}
-
-.menu-bar ul li a{
-    display: block;
-    width: 150px;
-    color: white;
-    text-decoration: none;
-    line-height: 50px;
-}
-.menu-bar ul li a:hover{
-    background-color: none ;
-    text-decoration: underline white;
-}
-
-.menu-bar ul ul{
-    position: absolute;
-    display: none;
-}
-.menu-bar ul ul li{
-    display: block;
-    background-color: none ;
-    
-}
-
-#mb-ul{
-    min-width: 300px;
-    background-color: none ;
-    text-align: center;
-}
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 body{
-    height: 100%;
     background-image: url(./images/location배경.jpg);
-    /* position: relative;
-    margin-left: auto;
-    margin-right: auto; */
+    border: 0;
+    padding: 0;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 .text-area{
     font-family: "main-font";
@@ -138,7 +29,10 @@ body{
 .map-area{
     display: flex;
     justify-content: center;
-    lign-items: center;
-    
+    align-items: center;
+    position:relative;z-index:1
+}
 
+#total-header{
+    position:relative;z-index:2
 }
