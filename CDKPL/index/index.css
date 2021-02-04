@@ -143,3 +143,9 @@ header{
     font-size: 75px;
     padding-top: 150px;
 }
+
+#total-footer{
+    position: absolute;
+    bottom: 0;
+    top: 130%;
+}

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #videobcg {
     
     position: absolute;
@@ -18,7 +23,7 @@
 
 @font-face{
     src: url("../index/fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf");
-    font-family: main-font;
+    font-family: "main-font";
 }
 
 
@@ -55,7 +60,48 @@
     float: left;
     font-size: 35px;
     font-family: "sub-font";
-    margin: 200px 0 0 20.5%;
+    margin: 200px 0 0 18.5%;
     font-weight: bold;
     color: white;
+}
+
+
+section{
+    font-family:  "sub-font";
+    padding: 0 30% 0 35%;
+    padding-top: 50px;
+    margin-top: 485px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+    width: 700px;
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px 100px
+}
+
+.sub-block:nth-child(1){
+    border-right: 3px solid red;
+    margin-right: 90px;
+    font-size: 35px;
+}
+.sub-block:nth-child(2){
+    font-size: 20px;
+}
+.sub-block:nth-child(3){
+    border-right: 3px solid red;
+    margin-right: 90px;
+    font-size: 35px;
+}
+.sub-block:nth-child(4){
+    font-size: 20px;
+}
+.sub-block:nth-child(5){
+    border-right: 3px solid red;
+    margin-right: 70px;
+    font-size: 35px;
+}
+.sub-block:nth-child(6){
+    font-size: 20px;
 }
