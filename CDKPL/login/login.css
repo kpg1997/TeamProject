@@ -70,64 +70,27 @@ body{
 .menu-main-bar {
     margin-top: 100px;
 }
-.menu-bar{
-    font-family: "main-font";
-}
 
-.menu-bar ul{
-    list-style: none;
-    font-size: 30px;
-    display: inline-block;
-    /* margin-bottom:px; */
-}
-
-.menu-bar ul li{
-    /* float: left;
-    padding: 0 40px 0 40px; */
-    display: inline-block;
-    margin-left: -35px;
-    
-}
-
-.menu-bar ul li a{
-    display: block;
-    width: 150px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    line-height: 40px;
-}
-.menu-bar ul li a:hover{
-    background-color:  none ;
-    color: white;
-}
-
-.menu-bar ul ul{
-    position: absolute;
-    display: none;
-}
-.menu-bar ul ul li{
-    display: block;
-    background-color: none ;
-    color: rgb(0, 0, 0);
-}
-
-#mb-ul{
-    min-width: 300px;
-    background-color: none ;
-    text-align: center;
-}
 
 .main-slogan{
     font-family: "main-font";
     font-size: 75px;
     padding-top: 150px;
 }
-/*로그인 panel*/
+/*////////////////////////////로그인 panel////////////////*/
 .login-form-panel{
-    width: 450px;
+    width: 600px;
     margin: auto;
     padding: 3px;
+    text-align: center;
 }
+.form-title{
+    font-family: "main-font";
+    font-size: 45px;
+    padding-top: 15px;
+    color:white;
+}
+
 .form-input,#login{
     display: inline-block;
 }
@@ -151,6 +114,7 @@ body{
 .form-input,#login{
     vertical-align: middle;
 }
+
 .buttons{
     font-size: 25px;
     font-family: "main-font";
@@ -172,19 +136,35 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+#input-id, #input-pwd{
+    margin-top: 5px;
+    font-family: "main-font";
+    font-size: 28px;
+}
+
+
 #body-panel{
     margin-top: 90px;
+        background-color: #181b33;
+        width: 600px;
+        margin: auto;
+        margin-top:40px;
+        padding-bottom: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px #000;
+    
 }
-/* 
-div input{
-} */
+
+
+/* ////////////////정보찾기/////////////////// */
 .join-find-id-pwd{
     margin-top: 14px;
 }
-
 .div{
     color: gray;
 }
+
 .find-id-panel,.find-pwd-panel,.show-user-id-pwd{
     background-color: white;
     width: 450px;
