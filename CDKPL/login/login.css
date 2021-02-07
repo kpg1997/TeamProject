@@ -166,7 +166,6 @@ body{
 }
 
 .find-id-panel,.find-pwd-panel,.show-user-id-pwd{
-    background-color: white;
     width: 450px;
     margin: 13px auto auto auto;
     padding: 13px 0 13px 13px;
@@ -179,6 +178,7 @@ body{
     border:3px solid rgb(242, 242, 255);
     margin-bottom: 10px;
     margin-top: 13px;
+    margin-left: 15px;
     padding-left: 5px ;
     padding-right: 5px;
     color: black;
